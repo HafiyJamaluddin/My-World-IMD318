@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fef3e2; 
+            color: #4b2e12;
+            margin: 0;
+        }
+        nav {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: #d9a973; 
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 5px 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Showcard Gothic', cursive;
+            color: #4b2e12;
+            margin-top: 70px;
+        }
+        .gallery-container {
+            position: relative;
+            width: 90%;
+            height: 600px;
+            margin: 20px auto;
+            border: 2px dashed #d9a973;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .gallery-item {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .gallery-item:nth-child(1) { top: 50px; left: 20px; transform: rotate(10deg); }
+        .gallery-item:nth-child(2) { top: 100px; left: 200px; transform: rotate(-15deg); }
+        .gallery-item:nth-child(3) { top: 250px; left: 100px; transform: rotate(5deg); }
+        .gallery-item:nth-child(4) { top: 350px; left: 300px; transform: rotate(-10deg); }
+        .gallery-item:nth-child(5) { top: 150px; left: 400px; transform: rotate(8deg); }
+        .gallery-item:nth-child(6) { top: 150px; right: 500px; transform: rotate(-5deg); }
+        .gallery-item:nth-child(7) { top: 350px; right: 50px; transform: rotate(12deg); }
+        .gallery-item:nth-child(8) { top: 250px; right: 250px; transform: rotate(-8deg); }
+        .gallery-item:nth-child(9) { top: 100px; right: 150px; transform: rotate(6deg); }
+        .gallery-item:nth-child(10) { top: 350px; right: 550px; transform: rotate(-12deg); }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Showcard+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Biodata.html">Biodata</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="Experience.html">Experience</a></li>
+            <li><a href="Family.html">Family</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Video.html">Funny video</a></li>
+            <li><a href="Quote.html">Quote</a></li>
+        </ul>
+    </nav>
+    <h1 id="gallery">My Photo Gallery</h1>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="sun4.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="sun1.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="sun3.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="sun10.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="sun8.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="sun6.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="sun9.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="sun7.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="sun5.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="sun2.jpg">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fef3e2; 
+            color: #4b2e12;
+            margin: 0;
+        }
+        nav {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: #d9a973; 
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 5px 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Showcard Gothic', cursive;
+            color: #4b2e12;
+            margin-top: 70px;
+        }
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            border: 1px solid #d1a681;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #d1a681;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #d9a973;
+            color: white;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+         audio {
+            width: 100%;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Showcard+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Biodata.html">Biodata</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="Experience.html">Experience</a></li>
+            <li><a href="Family.html">Family</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Video.html">Funny video</a></li>
+            <li><a href="Quote.html">Quote</a></li>
+       </ul>
+    </nav>
+    <h1 id="biodata">This is My Biodata</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>FIELD</th>
+                <th>DETAILS</th>
+                <th>PICTURE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>NAME</td>
+                <td>MUHAMMAD HAFIY BIN JAMALUDDIN</td>
+                <td><img src="hafiy.jpg" alt="Name Picture"></td>
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH</td>
+                <td>22.1.2004</td>
+                <td><img src="04.jpg" alt="Age Picture"></td>
+            </tr>
+              <tr>
+                <td>BIRTH PLACE</td>
+                <td>HOSPITAL BESAR IPOH</td>
+                <td><img src="ipoh.jpg" alt="Age Picture"></td>
+            </tr>
+            <tr>
+                <td>CONTACT</td>
+                <td>HOSPITAL BESAR IPOH</td>
+                <td><a href="https://www.instagram.com/fiyh_mj/?next=%2F&hl=en"><img src="insta.png" style="width:42px;height:42px;"></a></td>
+            </tr>
+            <tr>
+                <td>ELEMENTARY SCHOOL</td>
+                <td>SK SUNGAI TIRAM</td>
+                <td><img src="sk.jpg" alt="School Picture"></td>
+            </tr>
+            <tr>
+                <td>HIGHSCHOOL</td>
+                <td>SMK BATU 10</td>
+                <td><img src="smk10s.jpg" alt="School Picture"></td>
+            </tr>
+            <tr>
+                <td>UNIVERSITY</td>
+                <td>UITM SUNGAI PETANI</td>
+                <td><img src="uk.jpg" alt="School Picture"></td>
+            </tr>
+            <tr>
+                <td>HOBBY</td>
+                <td>BADMINTON</td>
+                <td><img src="bad.jpg" alt="Hobby Picture"></td>
+            </tr>
+            <tr>
+                <td>FAVOURITE SONG</td>
+                <td>MIMPI YANG SEMPURNA</td>
+                <td>
+                    <audio controls>
+                    <source src="mimpi.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+            </tr>
+             <tr>
+                <td>COSTUM SONG</td>
+                <td>MEOW SONG</td>
+                <td>
+                    <audio controls>
+                    <source src="kucing.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
